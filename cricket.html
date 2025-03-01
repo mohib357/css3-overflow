@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cricket height</title>
+
+    <style>
+        .field img{
+            height: 600px;
+        }
+        .field{
+            border: 1px solid steelblue;
+        }
+        .field:hover .bat{
+            transform: rotate(-60deg);
+            transform-origin: top right;
+        }
+        .bat{
+            transition: transform 0.1s ease-in;
+        }
+        .field:hover .ball{
+            transform: translate(1000px, -650px);
+        }
+        .ball{
+            height: 70px;
+            width: 70px;
+            background-color: red;
+            border-radius: 50%;
+            position: relative;
+            /* top: 20px; */
+            left: 800px;
+            transition: transform 1s ease-out 0.11s;
+        }
+    </style>
+
+
+</head>
+<body>
+    <div class="field">
+        <img src="transfrom/dsc-spliit-ply-ed-english-willow-cricket-bat-au-david-2.jpg" alt="" class="bat">
+        <div class="ball"></div>
+    </div>
+</body>
+</html>
